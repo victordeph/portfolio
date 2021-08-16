@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat-Regular.ttf);
+}
+
+*{
+  font-family: Montserrat;
+}
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  /* background-color:#555; */
+}
+.navbar-fixed {
+  position: absolute;
+  z-index:999999999;
+}
