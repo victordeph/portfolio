@@ -3,6 +3,11 @@
   src: url(/fonts/Montserrat-Regular.ttf);
 }
 
+@font-face {
+  font-family: MontserratBold;
+  src: url(/fonts/Montserrat-Bold.ttf);
+}
+
 *{
   font-family: Montserrat;
 }
@@ -14,9 +19,63 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  /* background-color:#555; */
+  background-color:#555;
 }
 .navbar-fixed {
   position: absolute;
   z-index:999999999;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee;
+	
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
+
+
+.item1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.5)),url("/img/san-francisco.jpg"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px -250px;
+  position: relative;
+  background-size: cover;
+}
+
+.item2{
+  background-image: url("/img/builds.jpg"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px -250px;
+  position: relative;
+  background-size: cover;
+}
+
+section {
+  background-color: #eee;
+}
+
+.fa {
+  font-size:25px;
+  letter-spacing:15px;
+}
+
+.links{
+  text-align: center;
+}
+
+h3{
+  font-family: MontserratBold;
 }

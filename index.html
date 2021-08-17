@@ -6,24 +6,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
   <link type="text/css" rel="stylesheet" href="css/index.css" media="screen,projection" />
   <title>Home</title>
 
   <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-P3GSMT2');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P3GSMT2');</script>
   <!-- End Google Tag Manager -->
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3GSMT2"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3GSMT2" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Preloader -->
+  <!-- <div class="preloader-background">
+    <div class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div>
+        <div class="gap-patch">
+          <div class="circle"></div>
+        </div>
+        <div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
 
   <header>
     <div class="navbar-fixed">
@@ -45,17 +66,52 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <main>
     <div class="parallax-container">
-      <div class="parallax"><img src="img/san-francisco.jpg"></div>
+      <div class="parallax item1"></div>
       <!-- <img class="alpha" src=""> -->
     </div>
 
-    <div class="container">
+  </main>
+
+  <section>
+    <div class="container hello">
       <h3>Hello world!</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacinia malesuada laoreet. Aliquam erat
         volutpat. Pellentesque rhoncus ac purus et pretium. Ut nec eleifend augue, id condimentum massa. Vestibulum quis
         pellentesque augue. Nam id sagittis arcu, nec volutpat tellus. Nulla facilisi. Vestibulum ut risus mauris.</p>
+        <br>
     </div>
-  </main>
+  </section>
+
+  <footer style="background-color: #212529;" class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12  ">
+          <h6 class="white-text">Follow me </h6>
+          <a class="white-text" href=""><i class="fa fa-facebook"></i></a>
+          <a class="white-text" href=""><i class="fa fa-instagram"></i></a>
+          <a class="white-text" href=""><i class="fa fa-twitter"></i></a>
+          <a class="white-text" href=""><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="col">
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Partnerships</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Blog </a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2021 Copyright Victor Dimas
+        <a class="grey-text text-lighten-4 right" href="#!">victordeph.github.io</a>
+      </div>
+    </div>
+  </footer>
+
+
+
 
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
